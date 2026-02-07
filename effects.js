@@ -147,4 +147,9 @@ document.addEventListener("mousemove", e=>{
 
   card.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
 });
+heart.addEventListener("pointerdown", e => {
+  e.preventDefault();
+  hold = true;
+});
+
 
