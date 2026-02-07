@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
    LOCK SYSTEM (SAFE & STABLE)
 ================================ */
 let input = [];
-const correct = "070766";
+const correct = "123456";
 
 /* กดตัวเลข */
 function press(n){
@@ -147,3 +147,4 @@ document.addEventListener("mousemove", e=>{
 
   card.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
 });
+
